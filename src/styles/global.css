@@ -28,4 +28,12 @@ nav #link-container {
 nav #link-container a {
   text-decoration: none;
   font-weight: 800;
-}/*# sourceMappingURL=App.css.map */
+}
+
+#section-heading {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}/*# sourceMappingURL=global.css.map */
