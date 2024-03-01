@@ -1,9 +1,51 @@
 @use '../../styles/variables';
 
-img {
-    width: 20vw;
-    height: 20vw;
-    margin: 2vw;
-    border: 5px solid variables.$secondary-color;
-    border-radius: 50%;
+#bio {
+    img {
+        width: 20vw;
+        height: 20vw;
+        margin: 2vw 2vw 2vw 5vw;
+        border: 5px solid variables.$secondary-color;
+        border-radius: 50%;
+        position: fixed;
+    }
+    
+    .section {
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        margin-left: 35vw;
+    
+        h1, h2 {
+            margin-bottom: -1vw;
+        }
+    
+        sup {
+            font-size: 14px;
+            color: variables.$secondary-font-color;
+    
+            &:hover {
+                color: variables.$hovered-font-color;
+            }
+    
+            > a {
+                text-decoration: none;
+                color: variables.$secondary-font-color;
+    
+                &:hover {
+                    color: variables.$hovered-font-color;
+                }
+            }
+        }
+    
+        > li {
+            margin-bottom: 2vw;
+        }
+    
+        .title-expandable {
+            @include variables.left-border(40px);
+            margin-top: 3vw;
+            cursor: pointer;
+        }
+    }
 }

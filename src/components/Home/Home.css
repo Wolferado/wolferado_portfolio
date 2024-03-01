@@ -2,23 +2,23 @@ body {
   overflow-x: hidden;
 }
 
-#header {
+#home #header {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 5vh;
 }
-#header img {
+#home #header img {
   width: 10vw;
   height: 10vw;
   border-radius: 50%;
   border: 5px solid #B0D1FF;
   margin-bottom: -20px;
 }
-#header h1 {
+#home #header h1 {
   margin-bottom: 5px;
 }
-#header h1::before {
+#home #header h1::before {
   content: " ";
   height: 5px;
   width: 35vw;
@@ -26,7 +26,7 @@ body {
   display: inline-block;
   margin: 0px 15px 10px 15px;
 }
-#header h1::after {
+#home #header h1::after {
   content: " ";
   height: 5px;
   width: 35vw;
@@ -34,22 +34,21 @@ body {
   display: inline-block;
   margin: 0px 15px 10px 15px;
 }
-#header h2 {
+#home #header h2 {
   margin-top: -15px;
   font-weight: 200;
 }
-
-#introduction {
+#home #introduction {
   display: flex;
   flex-direction: column;
   margin: 0 0 0 7.5vw;
   width: 70vw;
 }
-#introduction h1 {
+#home #introduction h1 {
   font-size: 50px;
   font-weight: 200;
 }
-#introduction h1::before {
+#home #introduction h1::before {
   content: " ";
   width: 5px;
   height: 50px;
@@ -57,32 +56,31 @@ body {
   display: inline-block;
   margin: 0px 25px -8.75px 0px;
 }
-#introduction p {
+#home #introduction p {
   font-size: 24px;
   font-weight: 0;
   margin: 0 0 0 2vw;
   white-space: pre-line;
 }
-#introduction p sup {
+#home #introduction p sup {
   font-size: 14px;
   color: #7D7D7D;
 }
-#introduction p > ul {
+#home #introduction p > ul {
   margin-top: 2px;
   margin-left: 5vw;
 }
-
-#interests-and-skills {
+#home #interests-and-skills {
   width: 80vw;
   height: auto;
   margin-left: 7.5vw;
   margin-bottom: 2vw;
 }
-#interests-and-skills h1 {
+#home #interests-and-skills h1 {
   font-size: 50px;
   font-weight: 200;
 }
-#interests-and-skills h1::before {
+#home #interests-and-skills h1::before {
   content: " ";
   width: 5px;
   height: 50px;
@@ -90,7 +88,7 @@ body {
   display: inline-block;
   margin: 0px 25px -8.75px 0px;
 }
-#interests-and-skills .cards {
+#home #interests-and-skills .cards {
   display: grid;
   grid-template-columns: 40% 60%;
   grid-template-rows: 20% 80%;
@@ -101,7 +99,7 @@ body {
   border-radius: 15px;
   margin-bottom: 2vw;
 }
-#interests-and-skills .cards > .card-gradient {
+#home #interests-and-skills .cards > .card-gradient {
   grid-column: 1;
   grid-row: span 2;
   width: 32vw;
@@ -110,7 +108,7 @@ body {
   z-index: 0;
   position: absolute;
 }
-#interests-and-skills .cards img {
+#home #interests-and-skills .cards img {
   grid-column: 1;
   grid-row: span 2;
   width: 100%;
@@ -120,11 +118,11 @@ body {
   z-index: -1;
   border-radius: 10px 0px 0px 10px;
 }
-#interests-and-skills .cards h2 {
+#home #interests-and-skills .cards h2 {
   grid-column: 2;
   grid-row: 1;
 }
-#interests-and-skills .cards p {
+#home #interests-and-skills .cards p {
   grid-column: 2;
   grid-row: 2;
   margin-right: 10vw;

@@ -4,6 +4,7 @@ import Biography from '../components/Biography/Biography';
 import Projects from '../components/Projects/Projects';
 import NotFound from '../components/NotFound/NotFound';
 import './App.css';
+import '../styles/global.css';
 
 const App = () => {
     return (

@@ -1,7 +1,46 @@
-img {
+#bio img {
   width: 20vw;
   height: 20vw;
-  margin: 2vw;
+  margin: 2vw 2vw 2vw 5vw;
   border: 5px solid #B0D1FF;
   border-radius: 50%;
+  position: fixed;
+}
+#bio .section {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 35vw;
+}
+#bio .section h1, #bio .section h2 {
+  margin-bottom: -1vw;
+}
+#bio .section sup {
+  font-size: 14px;
+  color: #7D7D7D;
+}
+#bio .section sup:hover {
+  color: #b6b6b6;
+}
+#bio .section sup > a {
+  text-decoration: none;
+  color: #7D7D7D;
+}
+#bio .section sup > a:hover {
+  color: #b6b6b6;
+}
+#bio .section > li {
+  margin-bottom: 2vw;
+}
+#bio .section .title-expandable {
+  margin-top: 3vw;
+  cursor: pointer;
+}
+#bio .section .title-expandable::before {
+  content: " ";
+  width: 5px;
+  height: 40px;
+  background: #B0D1FF;
+  display: inline-block;
+  margin: 0px 20px -7px 0px;
 }/*# sourceMappingURL=Biography.css.map */

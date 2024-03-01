@@ -1,14 +1,14 @@
-import '../../styles/global.css';
+import './NotFound.css'
 
 const NotFound = () => {
+    document.title = "404 - Aleksey Karelin Portfolio"
+
     return (
-        <>
-            <h1>I think, you are not supposed to be here.</h1>
+        <div id='not-found'>
+            <h1>404</h1>
 
-            <h3>Here, take this random piece of information about me:</h3>
-
-            <i>Something</i>
-        </>
+            <h3>I think, you are not supposed to be here.</h3>
+        </div>
     );
 }
 

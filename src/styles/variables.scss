@@ -2,6 +2,7 @@ $main-color: #22272E;
 $secondary-color: #B0D1FF;
 $main-font-color: #E9F2FF;
 $secondary-font-color: #7D7D7D;
+$hovered-font-color: #b6b6b6;
 
 @mixin left-border($border-size) {
     &::before {
@@ -12,4 +13,4 @@ $secondary-font-color: #7D7D7D;
         display: inline-block;
         margin: 0px calc($border-size / 2) calc($border-size / 4 * -0.7)  0px ;
     }
-}
+} 

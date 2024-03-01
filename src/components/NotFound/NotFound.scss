@@ -1,0 +1,16 @@
+@use '../../styles/variables';
+
+#not-found {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    user-select: none;
+    justify-items: start;
+
+    > h1 {
+        margin: 0;
+        font-size: 350px;
+        padding: 0px;
+        color: variables.$secondary-font-color;
+    }
+}

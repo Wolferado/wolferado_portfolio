@@ -1,1 +1,13 @@
-/*# sourceMappingURL=NotFound.css.map */
+#not-found {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  user-select: none;
+  justify-items: start;
+}
+#not-found > h1 {
+  margin: 0;
+  font-size: 350px;
+  padding: 0px;
+  color: #7D7D7D;
+}/*# sourceMappingURL=NotFound.css.map */

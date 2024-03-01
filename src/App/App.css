@@ -29,4 +29,7 @@ nav #link-container > a.active {
   font-size: 24px;
   letter-spacing: 6px;
   color: #E9F2FF;
+}
+nav #link-container > :hover {
+  color: #b6b6b6;
 }/*# sourceMappingURL=App.css.map */

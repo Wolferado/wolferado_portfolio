@@ -1,7 +1,7 @@
-@use "variables";
+@use './variables';
 
 body {
     font-family: "Kadwa", serif;
-    color: $main-font-color;
-    background-color: $main-color;
+    color: variables.$main-font-color;
+    background-color: variables.$main-color;
 }

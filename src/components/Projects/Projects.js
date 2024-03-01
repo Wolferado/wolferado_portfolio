@@ -1,14 +1,12 @@
-import '../../styles/global.css';
+import './Projects.css';
 
 const Projects = () => {
     document.title = "Projects - Aleksey Karelin Portfolio";
 
     return (
-        <>
-            <div id="section-heading">
-                <h1>Projects</h1>
-            </div>
-        </>
+        <div id='projects'>
+            
+        </div>
     );
 }
 

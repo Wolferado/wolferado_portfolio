@@ -34,5 +34,9 @@ nav {
             letter-spacing: 6px;
             color: variables.$main-font-color;
         }
+
+        & > :hover {
+            color: variables.$hovered-font-color;
+        }
     }
 }

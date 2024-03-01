@@ -1,5 +1,4 @@
-import './Home.css';
-import '../../styles/global.css';
+import styles from './Home.css';
 import Card from './Card';
 import CardData from '../../materials/card_descriptions.json'
 import ProfilePic from '../../materials/Aleksey Karelin 2 (cropped).jpg'
@@ -13,7 +12,7 @@ const Home = () => {
     document.title = "Home - Aleksey Karelin Portfolio";
 
     return(
-        <>
+        <div id="home">
             <div id='header'>
                 <img src={ProfilePic} alt='Profile_Picture'/> 
                 <h1>Aleksey Karelin</h1>
@@ -42,11 +41,7 @@ const Home = () => {
                 <Card cardImage={BlenderCardPic} altText='Blender_Picture' cardName='Modelling in Blender & Animation' cardText={CardData["Blender Modelling"]} />
                 <Card cardImage={AdobeCardPic} altText='Adobe_Picture' cardName='Photo & Video Editing' cardText={CardData["Editing"]} />
             </div>
-
-            <footer>
-                TODO: Later
-            </footer>
-        </>
+        </div>
     );
 }
 
