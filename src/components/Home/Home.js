@@ -1,4 +1,4 @@
-import styles from './Home.css';
+import './Home.css';
 import Card from './Card';
 import CardData from '../../materials/card_descriptions.json'
 import ProfilePic from '../../materials/Aleksey Karelin 2 (cropped).jpg'
