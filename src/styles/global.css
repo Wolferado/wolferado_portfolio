@@ -1,39 +1,5 @@
-nav {
-  display: flex;
-  justify-content: space-between;
-  width: 100vw;
-}
-nav #name-container {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  justify-content: center;
-}
-nav #name-container h1 {
-  padding: 0px;
-  margin: 0px;
-}
-nav #name-container h3 {
-  margin: 0px;
-  padding: 0 0 0 15px;
-  color: #999999;
-}
-nav #link-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  width: 50vw;
-}
-nav #link-container a {
-  text-decoration: none;
-  font-weight: 800;
-}
-
-#section-heading {
-  height: 30vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 32px;
+body {
+  font-family: "Kadwa", serif;
+  color: #E9F2FF;
+  background-color: #22272E;
 }/*# sourceMappingURL=global.css.map */

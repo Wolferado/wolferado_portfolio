@@ -1,48 +1,51 @@
 import './Home.css';
 import '../../styles/global.css';
+import Card from './Card';
+import CardData from '../../materials/card_descriptions.json'
+import ProfilePic from '../../materials/Aleksey Karelin 2 (cropped).jpg'
+import FrontEndCardPic from '../../materials/VS_Code_FrontEnd_Perspective.png'
+import BackEndCardPic from '../../materials/Back-End_Showcase_Perspective.png'
+import UnityCardPic from '../../materials/Unity_Game_Showcase_Perspective.png'
+import BlenderCardPic from '../../materials/Blender_Showcase_Perspective.png'
+import AdobeCardPic from '../../materials/Adobe_Showcase.png'
 
 const Home = () => {
+    document.title = "Home - Aleksey Karelin Portfolio";
+
     return(
         <>
-            <div id="section-heading">
-                <h1>Programming temporary, suffering eternal.</h1>
+            <div id='header'>
+                <img src={ProfilePic} alt='Profile_Picture'/> 
+                <h1>Aleksey Karelin</h1>
+                <h2>Portfolio</h2>
             </div>
 
-            <div id="quote-explanation">
-                <p>
-                    I came up with this quote during the time I played the videogame "DOOM Eternal" by <a href='https://www.idsoftware.com/'>id Software.</a> <br />
-                    A lot of players joked about DOOM being truly Eternal (because, it kinda is), by using the simple quote template: <br />
-                    
-                    <br />
-
-                    <b>Something</b> is temporary, but DOOM is Eternal. <br />
-
-                    <br />
-
-                    I liked it that much, because it portrayed some simple idea and was used in memes that made me laugh. <br />
-                    So, as a result, I transformed it to something that would be relatable and quickly understandable. <br />
-
-                    <br />
-
-                    <i>P. S. Suffering isn't caused by only programming, but also testing, debugging, living. But, in all seriousness, that's a joke, lads.</i> <br/>
-
-                    <br />
-
-                    &copy; Wolferado
-                </p>
-            </div>
-
-            <div id="about-portfolio">
-                <h1>Why am I here, you may ask?</h1>
-
-                <h2>This is my online portfolio that contains:</h2>
-
+            <div id='introduction'>
+                <h1>Welcome to my portfolio!</h1>
+                <p>Hello there. </p>
+                <p>First of all, my name is Aleksey <sup> (as seen above) </sup> and this is my portfolio. </p>
+                <p>Here you will be able to find following information:
                 <ul>
-                    <li>Information about me</li>
-                    <li>Projects that I have made</li>
-                    <li>The ways how you can contact me</li>
+                    <li>My interests and skills;</li>
+                    <li>My own biography straight from my CV; <sup>(but detalized, it is impossible to fit everything in one Word document)</sup></li>
+                    <li>Projects that I have created.</li>
                 </ul>
+                </p>
+                <p>Feel free to discover and read!</p>
             </div>
+
+            <div id='interests-and-skills'>
+                <h1>Interests & Skills</h1>
+                <Card cardImage={FrontEndCardPic} altText='VS_Code_Editor_Picture' cardName='Front-End Development' cardText={CardData["Front-End Development"]} />
+                <Card cardImage={BackEndCardPic} altText='Application_Software_Picture' cardName='Application & Back-End Development' cardText={CardData["App and Back-End Development"]} />
+                <Card cardImage={UnityCardPic} altText='Game_Development_Picture' cardName='Unity Game Development' cardText={CardData["Unity Game Development"]} />
+                <Card cardImage={BlenderCardPic} altText='Blender_Picture' cardName='Modelling in Blender & Animation' cardText={CardData["Blender Modelling"]} />
+                <Card cardImage={AdobeCardPic} altText='Adobe_Picture' cardName='Photo & Video Editing' cardText={CardData["Editing"]} />
+            </div>
+
+            <footer>
+                TODO: Later
+            </footer>
         </>
     );
 }

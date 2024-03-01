@@ -1,0 +1,38 @@
+@use "../styles/variables";
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 6vh;
+    border-bottom: 5px solid variables.$secondary-color;
+
+    #name-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 0px 25px; 
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    #link-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 40vw;
+
+        & > a {
+            text-decoration: none;
+            font-weight: 800;
+            font-size: 24px;
+            color: variables.$secondary-font-color;
+        }
+
+        & > a.active {
+            font-size: 24px;
+            letter-spacing: 6px;
+            color: variables.$main-font-color;
+        }
+    }
+}

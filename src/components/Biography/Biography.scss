@@ -1,0 +1,9 @@
+@use '../../styles/variables';
+
+img {
+    width: 20vw;
+    height: 20vw;
+    margin: 2vw;
+    border: 5px solid variables.$secondary-color;
+    border-radius: 50%;
+}
