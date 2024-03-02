@@ -30,11 +30,11 @@ const Biography = () => {
                     <li><h2>MSC Shared Service Center Riga - Business Data Processing Intern <br /><i>(July 2023 - October 2023)</i></h2></li>
                     <br />
                     <ul>
-                        <li>Created, analyzed and renewed SQL codes;</li>
-                        <li>Processed Contract Lists with Excel;</li>
-                        <li>Monitored tariffs and exceptions, modified them according to the requirements and requests;</li>
-                        <li>Processed clients’ requests via e-mail and specialized platforms inside MSC;</li>
-                        <li>Created Power Automate flows to simplify work and increase productivity.</li>
+                        <li><h3>Created, analyzed and renewed SQL codes;</h3></li>
+                        <li><h3>Processed Contract Lists with Excel;</h3></li>
+                        <li><h3>Monitored tariffs and exceptions, modified them according to the requirements and requests;</h3></li>
+                        <li><h3>Processed clients’ requests via e-mail and specialized platforms inside MSC;</h3></li>
+                        <li><h3>Created Power Automate flows to simplify work and increase productivity.</h3></li>
                     </ul>
                 </ul>
             } />

@@ -22,11 +22,11 @@ const Home = () => {
             <div id='introduction'>
                 <h1>Welcome to my portfolio!</h1>
                 <p>Hello there. </p>
-                <p>First of all, my name is Aleksey <sup> (as seen above) </sup> and this is my portfolio. </p>
-                <p>Here you will be able to find following information:
+                <p>First of all, my name is Aleksey <sup> (as seen above) </sup> and I am a 3rd, final year student at RTU. </p>
+                <p>In my portfolio you will be able to find following information:
                 <ul>
                     <li>My interests and skills;</li>
-                    <li>My own biography straight from my CV; <sup>(but detalized, it is impossible to fit everything in one Word document)</sup></li>
+                    <li>My own biography straight from my CV; </li>
                     <li>Projects that I have created.</li>
                 </ul>
                 </p>

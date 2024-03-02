@@ -2,4 +2,8 @@ body {
   font-family: "Kadwa", serif;
   color: #E9F2FF;
   background-color: #22272E;
+}
+
+::selection {
+  background: #34517a;
 }/*# sourceMappingURL=global.css.map */

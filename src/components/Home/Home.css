@@ -9,121 +9,184 @@ body {
   margin-top: 5vh;
 }
 #home #header img {
-  width: 10vw;
-  height: 10vw;
+  max-width: 20svh;
+  max-width: 20svh;
   border-radius: 50%;
   border: 5px solid #B0D1FF;
-  margin-bottom: -20px;
+  margin-bottom: -1.5vw;
 }
 #home #header h1 {
+  font-size: 3.5svw;
   margin-bottom: 5px;
 }
 #home #header h1::before {
   content: " ";
-  height: 5px;
-  width: 35vw;
+  height: 0.5svw;
+  width: 25vw;
+  vertical-align: 1svw;
   background: #B0D1FF;
   display: inline-block;
-  margin: 0px 15px 10px 15px;
+  margin: 0 1rem 0 1rem;
 }
 #home #header h1::after {
   content: " ";
-  height: 5px;
-  width: 35vw;
+  height: 0.5svw;
+  width: 25vw;
+  vertical-align: 1svw;
   background: #B0D1FF;
   display: inline-block;
-  margin: 0px 15px 10px 15px;
+  margin: 0 1rem 0 1rem;
 }
 #home #header h2 {
-  margin-top: -15px;
+  margin: -0.5rem;
+  font-size: 2.5svw;
   font-weight: 200;
 }
 #home #introduction {
   display: flex;
   flex-direction: column;
-  margin: 0 0 0 7.5vw;
+  margin: 0 0 0 9.5svw;
   width: 70vw;
 }
 #home #introduction h1 {
-  font-size: 50px;
+  font-size: 2rem;
   font-weight: 200;
 }
 #home #introduction h1::before {
   content: " ";
   width: 5px;
-  height: 50px;
+  height: 1em;
   background: #B0D1FF;
   display: inline-block;
-  margin: 0px 25px -8.75px 0px;
+  margin: 0px 0.5em -0.175em 0px;
 }
 #home #introduction p {
-  font-size: 24px;
+  font-size: 1.25rem;
   font-weight: 0;
   margin: 0 0 0 2vw;
   white-space: pre-line;
 }
 #home #introduction p sup {
-  font-size: 14px;
+  font-size: 1rem;
   color: #7D7D7D;
 }
 #home #introduction p > ul {
-  margin-top: 2px;
-  margin-left: 5vw;
+  margin-top: 0.2rem;
+  margin-left: 2.5vw;
 }
 #home #interests-and-skills {
-  width: 80vw;
+  width: 70vw;
   height: auto;
-  margin-left: 7.5vw;
+  margin: 0 0 0 9.5svw;
   margin-bottom: 2vw;
 }
 #home #interests-and-skills h1 {
-  font-size: 50px;
+  font-size: 2rem;
   font-weight: 200;
 }
 #home #interests-and-skills h1::before {
   content: " ";
   width: 5px;
-  height: 50px;
+  height: 1em;
   background: #B0D1FF;
   display: inline-block;
-  margin: 0px 25px -8.75px 0px;
+  margin: 0px 0.5em -0.175em 0px;
 }
 #home #interests-and-skills .cards {
   display: grid;
-  grid-template-columns: 40% 60%;
-  grid-template-rows: 20% 80%;
-  gap: 20px;
-  width: 100%;
-  height: 25vw;
-  border: 5px solid #B0D1FF;
+  grid-template-columns: 55% 45%;
+  grid-template-rows: 15% 85%;
+  column-gap: 2rem;
+  width: auto;
+  height: auto;
+  border: 5px solid #34517a;
   border-radius: 15px;
   margin-bottom: 2vw;
+  margin-left: 5vw;
+  transition: 0.5s;
 }
-#home #interests-and-skills .cards > .card-gradient {
-  grid-column: 1;
-  grid-row: span 2;
-  width: 32vw;
-  height: 25vw;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(34, 39, 46) 95%);
-  z-index: 0;
-  position: absolute;
+#home #interests-and-skills .cards:hover {
+  border-color: #B0D1FF;
+  box-shadow: 0px 0px 10px #B0D1FF;
+  transition: 0.5s;
 }
 #home #interests-and-skills .cards img {
   grid-column: 1;
   grid-row: span 2;
   width: 100%;
-  height: 25vw;
+  height: 100%;
   object-fit: cover;
   object-position: left top;
   z-index: -1;
   border-radius: 10px 0px 0px 10px;
 }
+#home #interests-and-skills .cards img::after {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(34, 39, 46) 95%);
+  width: 100%;
+  height: 100%;
+}
 #home #interests-and-skills .cards h2 {
+  word-wrap: hidden;
+  font-size: 1.5rem;
   grid-column: 2;
   grid-row: 1;
+  max-width: 20ch;
 }
 #home #interests-and-skills .cards p {
+  font-size: 1rem;
   grid-column: 2;
   grid-row: 2;
-  margin-right: 10vw;
+  margin: 2.5rem 1rem 1rem 1rem;
+  max-width: 35ch;
+}
+
+@media (max-width: 700px) {
+  #home #interests-and-skills .cards {
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 75%;
+    width: 100%;
+    height: auto;
+    border: 5px solid #34517a;
+    border-radius: 15px;
+    margin-bottom: 10vw;
+    margin-left: 5vw;
+  }
+  #home #interests-and-skills .cards:hover {
+    border-color: #B0D1FF;
+    box-shadow: 0px 0px 10px #B0D1FF;
+    transition: 0.5s;
+  }
+  #home #interests-and-skills .cards > .card-gradient {
+    grid-row: 1;
+    grid-column: 1;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(34, 39, 46) 95%);
+  }
+  #home #interests-and-skills .cards img {
+    grid-row: 1;
+    grid-column: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    filter: blur(1px);
+  }
+  #home #interests-and-skills .cards h2 {
+    font-size: 1.5rem;
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    align-self: center;
+    text-shadow: 5px 5px 3.5px black, -1px -1px 1px black;
+  }
+  #home #interests-and-skills .cards p {
+    text-align: start;
+    font-size: 0.8rem;
+    padding: 1.5rem;
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0px;
+    word-wrap: break-word;
+  }
 }/*# sourceMappingURL=Home.css.map */

@@ -1,35 +1,81 @@
 nav {
   display: flex;
   justify-content: space-between;
-  width: 100vw;
-  height: 6vh;
+  max-width: 100%;
+  min-height: 15svh;
   border-bottom: 5px solid #B0D1FF;
 }
 nav #name-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 0px 0px 0px 25px;
-  justify-content: center;
-  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
 }
-nav #link-container {
+nav #main-link-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  width: 40vw;
+  min-width: 50vw;
 }
-nav #link-container > a {
+nav #main-link-container > a {
   text-decoration: none;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #7D7D7D;
 }
-nav #link-container > a.active {
+nav #main-link-container > a.active {
   font-size: 24px;
   letter-spacing: 6px;
   color: #E9F2FF;
 }
-nav #link-container > :hover {
+nav #main-link-container > :hover {
   color: #b6b6b6;
+}
+nav ul {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0.5rem;
+  padding: 0;
+  min-width: 50vw;
+}
+nav ul > a {
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: #7D7D7D;
+}
+nav ul > a.active {
+  letter-spacing: 6px;
+  color: #E9F2FF;
+}
+nav ul > :hover {
+  color: #b6b6b6;
+}
+nav #nav-menu-button {
+  display: none;
+  margin-right: 1rem;
+  align-self: center;
+  font-size: 50px;
+}
+
+@media (max-width: 700px) {
+  nav {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  nav #main-link-container {
+    display: none;
+  }
+  nav ul {
+    display: flex;
+  }
+  nav #nav-menu-button {
+    display: flex;
+    justify-self: center;
+  }
 }/*# sourceMappingURL=App.css.map */

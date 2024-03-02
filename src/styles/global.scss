@@ -5,3 +5,7 @@ body {
     color: variables.$main-font-color;
     background-color: variables.$main-color;
 }
+
+::selection {
+    background: variables.$subtle-main-color;
+}
