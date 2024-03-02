@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/Wolferado/wolferado_portfolio",
-  "name": "wolferado_portfolio",
+  "homepage": "https://wolferado.github.io/wolferado_portfolio/",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,7 @@
     "react-collapsed": "^4.1.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
