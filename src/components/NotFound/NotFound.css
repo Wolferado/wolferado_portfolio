@@ -7,7 +7,45 @@
 }
 #not-found > h1 {
   margin: 0;
-  font-size: 350px;
+  font-size: 10rem;
   padding: 0px;
   color: #7D7D7D;
+  animation-name: blinking;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blinking {
+  0% {
+    color: #B0D1FF;
+    text-shadow: 1px 1px 4px #B0D1FF;
+  }
+  10% {
+    color: #7D7D7D;
+    text-shadow: none;
+  }
+  15% {
+    color: #B0D1FF;
+    text-shadow: 1px 1px 4px #B0D1FF;
+  }
+  30% {
+    color: #7D7D7D;
+    text-shadow: none;
+  }
+  50% {
+    color: #B0D1FF;
+    text-shadow: 1px 1px 4px #B0D1FF;
+  }
+  80% {
+    color: #7D7D7D;
+    text-shadow: none;
+  }
+  85% {
+    color: #B0D1FF;
+    text-shadow: 1px 1px 4px #B0D1FF;
+  }
+  90% {
+    color: #7D7D7D;
+    text-shadow: none;
+  }
 }/*# sourceMappingURL=NotFound.css.map */

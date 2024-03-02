@@ -9,8 +9,32 @@
 
     > h1 {
         margin: 0;
-        font-size: 350px;
+        font-size: clamp(5rem, 10rem, 15rem);
         padding: 0px;
         color: variables.$secondary-font-color;
+        animation-name: blinking;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
     }
+}
+
+@mixin blinking-off{
+    color: variables.$secondary-color;
+    text-shadow: 1px 1px 4px variables.$secondary-color;
+}
+
+@mixin blinking-on {
+    color: variables.$secondary-font-color;
+    text-shadow: none;
+}
+
+@keyframes blinking {
+    0% {@include blinking-off}
+    10% {@include blinking-on} 
+    15% {@include blinking-off}
+    30% {@include blinking-on}
+    50% {@include blinking-off}
+    80% {@include blinking-on}
+    85% {@include blinking-off}
+    90% {@include blinking-on}
 }

@@ -25,6 +25,7 @@ nav #main-link-container > a {
   font-weight: 800;
   font-size: 1.5rem;
   color: #7D7D7D;
+  transition: 0.5s;
 }
 nav #main-link-container > a.active {
   font-size: 24px;
@@ -33,6 +34,7 @@ nav #main-link-container > a.active {
 }
 nav #main-link-container > :hover {
   color: #b6b6b6;
+  transition: 0.5s;
 }
 nav ul {
   display: none;
@@ -42,6 +44,7 @@ nav ul {
   margin: 0.5rem;
   padding: 0;
   min-width: 50vw;
+  transition: 0.5s;
 }
 nav ul > a {
   text-decoration: none;
@@ -55,6 +58,7 @@ nav ul > a.active {
 }
 nav ul > :hover {
   color: #b6b6b6;
+  transition: 0.5s;
 }
 nav #nav-menu-button {
   display: none;
