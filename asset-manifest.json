@@ -1,19 +1,25 @@
 {
   "files": {
-    "main.css": "/wolferado_portfolio/static/css/main.6ef8313e.css",
-    "main.js": "/wolferado_portfolio/static/js/main.ec29b4e9.js",
+    "main.css": "/wolferado_portfolio/static/css/main.30377b0d.css",
+    "main.js": "/wolferado_portfolio/static/js/main.90234dd7.js",
     "static/media/Unity_Game_Showcase_Perspective.png": "/wolferado_portfolio/static/media/Unity_Game_Showcase_Perspective.8405c3ed86c368118b09.png",
     "static/media/Adobe_Showcase.png": "/wolferado_portfolio/static/media/Adobe_Showcase.602779e74d8d26edcb94.png",
     "static/media/Blender_Showcase_Perspective.png": "/wolferado_portfolio/static/media/Blender_Showcase_Perspective.34025634434a39d52718.png",
     "static/media/Aleksey Karelin 2 (cropped).jpg": "/wolferado_portfolio/static/media/Aleksey Karelin 2 (cropped).81129dc45f0b470e62a6.jpg",
     "static/media/Back-End_Showcase_Perspective.png": "/wolferado_portfolio/static/media/Back-End_Showcase_Perspective.9eebff156bd7a14f0b39.png",
+    "static/media/IAA_Kursa_darbs.png": "/wolferado_portfolio/static/media/IAA_Kursa_darbs.21022cf80584b94ecd65.png",
     "static/media/VS_Code_FrontEnd_Perspective.png": "/wolferado_portfolio/static/media/VS_Code_FrontEnd_Perspective.9329cb6dafe7d5b13fee.png",
+    "static/media/Unity_Showcase.png": "/wolferado_portfolio/static/media/Unity_Showcase.2e3caa5682e6b2a7b439.png",
+    "static/media/Physics-calculator.jpg": "/wolferado_portfolio/static/media/Physics-calculator.57ca51c3de4ed970788a.jpg",
+    "static/media/Junior_Web_Developer_Assignment.png": "/wolferado_portfolio/static/media/Junior_Web_Developer_Assignment.9a01664c0e02f608ecf1.png",
+    "static/media/LinkedIn.png": "/wolferado_portfolio/static/media/LinkedIn.9e211dcd4bd8b88e6414.png",
+    "static/media/Wolferado.png": "/wolferado_portfolio/static/media/Wolferado.416fc419b504d49cc0c7.png",
     "index.html": "/wolferado_portfolio/index.html",
-    "main.6ef8313e.css.map": "/wolferado_portfolio/static/css/main.6ef8313e.css.map",
-    "main.ec29b4e9.js.map": "/wolferado_portfolio/static/js/main.ec29b4e9.js.map"
+    "main.30377b0d.css.map": "/wolferado_portfolio/static/css/main.30377b0d.css.map",
+    "main.90234dd7.js.map": "/wolferado_portfolio/static/js/main.90234dd7.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ef8313e.css",
-    "static/js/main.ec29b4e9.js"
+    "static/css/main.30377b0d.css",
+    "static/js/main.90234dd7.js"
   ]
 }
