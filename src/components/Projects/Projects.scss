@@ -1,0 +1,89 @@
+@use '../../styles/variables';
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    * {
+        transition: 0.5s;
+    }
+
+    > .boards {
+        display: grid;
+        grid-template-rows: 65% 35%;
+        grid-template-columns: 100%;
+        margin: 1rem;
+        max-width: 30vw;
+        min-height: 40svh;
+        border: 5px solid variables.$subtle-main-color;
+        border-radius: 15px;
+
+        &:hover {
+            box-shadow: 0px 0px 5px variables.$main-font-color;
+            border-color: variables.$main-font-color;
+            cursor: pointer;
+
+            > img {
+                filter: blur(0px);
+            }
+
+            > .board-text {
+                background-color: variables.$main-font-color;
+
+                h2 {
+                    color: variables.$main-color;
+                }
+
+                h3 {
+                    color: variables.$secondary-font-color;
+                }
+            }
+        }
+
+        > img {
+            grid-row: 1;
+            grid-column: 1;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 10px 10px 0px 0px;
+            filter: blur(2px);
+        }
+
+        > .board-text {
+            width: 100%;
+            height: 100%;
+            grid-row: 2;
+            grid-column: 1;
+            background-color: variables.$main-color;
+            border-radius: 0px 0px 10px 10px;
+
+            > h2 {
+                font-size: clamp(0.7rem, 1.2rem, 1.7rem);
+                color: variables.$main-font-color;
+                margin: 0 0rem -0.5rem 1rem; 
+            }
+
+            > h3 {
+                font-size: clamp(0.5rem, 1rem, 1.5rem);
+                color: variables.$secondary-font-color;
+                margin: 1rem 0 0 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    #projects .boards {
+        grid-template-rows: 55% 45%;
+        max-width: 80vw;
+        min-width: 75vw;
+
+        > img {
+            filter: blur(0px);
+        }
+    }
+}

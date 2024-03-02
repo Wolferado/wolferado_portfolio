@@ -19,7 +19,7 @@ const App = () => {
             <nav>
                 <div id='name-container'>
                     <h1>Wolferado</h1>
-                    <span {...getToggleProps()} id='nav-menu-button' class="material-symbols-outlined">{isExpanded ? "close" : "menu"}</span>
+                    <span {...getToggleProps()} id='nav-menu-button' className="material-symbols-outlined">{isExpanded ? "close" : "menu"}</span>
                 </div>
 
                 <div id='main-link-container'>

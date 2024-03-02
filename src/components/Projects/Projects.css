@@ -1,1 +1,75 @@
-/*# sourceMappingURL=Projects.css.map */
+#projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#projects * {
+  transition: 0.5s;
+}
+#projects > .boards {
+  display: grid;
+  grid-template-rows: 65% 35%;
+  grid-template-columns: 100%;
+  margin: 1rem;
+  max-width: 30vw;
+  min-height: 40svh;
+  border: 5px solid #34517a;
+  border-radius: 15px;
+}
+#projects > .boards:hover {
+  box-shadow: 0px 0px 5px #E9F2FF;
+  border-color: #E9F2FF;
+  cursor: pointer;
+}
+#projects > .boards:hover > img {
+  filter: blur(0px);
+}
+#projects > .boards:hover > .board-text {
+  background-color: #E9F2FF;
+}
+#projects > .boards:hover > .board-text h2 {
+  color: #22272E;
+}
+#projects > .boards:hover > .board-text h3 {
+  color: #7D7D7D;
+}
+#projects > .boards > img {
+  grid-row: 1;
+  grid-column: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px 10px 0px 0px;
+  filter: blur(2px);
+}
+#projects > .boards > .board-text {
+  width: 100%;
+  height: 100%;
+  grid-row: 2;
+  grid-column: 1;
+  background-color: #22272E;
+  border-radius: 0px 0px 10px 10px;
+}
+#projects > .boards > .board-text > h2 {
+  font-size: 1.2rem;
+  color: #E9F2FF;
+  margin: 0 0rem -0.5rem 1rem;
+}
+#projects > .boards > .board-text > h3 {
+  font-size: 1rem;
+  color: #7D7D7D;
+  margin: 1rem 0 0 1rem;
+}
+
+@media (max-width: 700px) {
+  #projects .boards {
+    grid-template-rows: 55% 45%;
+    max-width: 80vw;
+    min-width: 75vw;
+  }
+  #projects .boards > img {
+    filter: blur(0px);
+  }
+}/*# sourceMappingURL=Projects.css.map */
