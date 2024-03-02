@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Wolferado/wolferado_portfolio/static/css/main.8649709c.css",
-    "main.js": "/Wolferado/wolferado_portfolio/static/js/main.7ccefa5b.js",
+    "main.css": "/Wolferado/wolferado_portfolio/static/css/main.05d55a96.css",
+    "main.js": "/Wolferado/wolferado_portfolio/static/js/main.d43b78ac.js",
     "static/media/Unity_Game_Showcase_Perspective.png": "/Wolferado/wolferado_portfolio/static/media/Unity_Game_Showcase_Perspective.8405c3ed86c368118b09.png",
     "static/media/Adobe_Showcase.png": "/Wolferado/wolferado_portfolio/static/media/Adobe_Showcase.602779e74d8d26edcb94.png",
     "static/media/Blender_Showcase_Perspective.png": "/Wolferado/wolferado_portfolio/static/media/Blender_Showcase_Perspective.34025634434a39d52718.png",
@@ -9,11 +9,11 @@
     "static/media/Back-End_Showcase_Perspective.png": "/Wolferado/wolferado_portfolio/static/media/Back-End_Showcase_Perspective.9eebff156bd7a14f0b39.png",
     "static/media/VS_Code_FrontEnd_Perspective.png": "/Wolferado/wolferado_portfolio/static/media/VS_Code_FrontEnd_Perspective.9329cb6dafe7d5b13fee.png",
     "index.html": "/Wolferado/wolferado_portfolio/index.html",
-    "main.8649709c.css.map": "/Wolferado/wolferado_portfolio/static/css/main.8649709c.css.map",
-    "main.7ccefa5b.js.map": "/Wolferado/wolferado_portfolio/static/js/main.7ccefa5b.js.map"
+    "main.05d55a96.css.map": "/Wolferado/wolferado_portfolio/static/css/main.05d55a96.css.map",
+    "main.d43b78ac.js.map": "/Wolferado/wolferado_portfolio/static/js/main.d43b78ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.8649709c.css",
-    "static/js/main.7ccefa5b.js"
+    "static/css/main.05d55a96.css",
+    "static/js/main.d43b78ac.js"
   ]
 }
