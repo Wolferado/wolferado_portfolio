@@ -64,8 +64,8 @@ const Biography = () => {
 
             <Section title = "Education" element = {
                 <ul>
-                    <li><h2>Riga Technical University - DITEF Faculty Student <sup><a href='https://www.rtu.lv/lv/ditef'>Link</a></sup> <br /> <i>(September 2021 - Present)</i></h2></li>
-                    <li><h2>J. G. Herdera Rigas Grizinkalna vidusskola - Student <sup><a href='https://www.herderagrizinkalnavsk.lv/'>Link</a></sup> <br /> <i>(September 2009 - May 2021)</i></h2></li>
+                    <li><h2>Riga Technical University - DITEF Faculty Student <sup><a target='_blank' rel='noreferrer' href='https://www.rtu.lv/lv/ditef'>Link</a></sup> <br /> <i>(September 2021 - Present)</i></h2></li>
+                    <li><h2>J. G. Herdera Rigas Grizinkalna vidusskola - Student <sup><a target='_blank' rel='noreferrer' href='https://www.herderagrizinkalnavsk.lv/'>Link</a></sup> <br /> <i>(September 2009 - May 2021)</i></h2></li>
                 </ul>
             } />
 
