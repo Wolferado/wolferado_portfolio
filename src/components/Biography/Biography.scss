@@ -66,6 +66,10 @@
     
         li {
             margin: 1rem;
+
+            i {
+                color: variables.$secondary-font-color;
+            }
         }
 
         ul > ul {

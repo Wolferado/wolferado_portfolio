@@ -53,6 +53,9 @@
 #bio .section li {
   margin: 1rem;
 }
+#bio .section li i {
+  color: #7D7D7D;
+}
 #bio .section ul > ul {
   margin-top: 2rem;
 }

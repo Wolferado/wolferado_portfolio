@@ -77,6 +77,10 @@ body {
             > ul {
                 margin-top: 0.2rem;
                 margin-left: 2.5vw;
+
+                i {
+                    color: variables.$secondary-font-color;
+                }
             }
         }
     }

@@ -15,7 +15,7 @@ const App = () => {
     });
 
     return (
-        <HashRouter>
+        <HashRouter basename='wolferado-portfolio/'>
             <nav>
                 <div id='name-container'>
                     <h1>Wolferado</h1>

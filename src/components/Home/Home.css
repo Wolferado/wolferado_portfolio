@@ -74,6 +74,9 @@ body {
   margin-top: 0.2rem;
   margin-left: 2.5vw;
 }
+#home #introduction p > ul i {
+  color: #7D7D7D;
+}
 #home #interests-and-skills {
   width: 90vw;
   height: auto;

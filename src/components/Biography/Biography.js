@@ -19,7 +19,7 @@ const Biography = () => {
 
             <Section title = "Achievements" element = {
                 <ul>
-                    <li><h2>Qualified as one of the team finalists for HeatlhTech pre-acceleration programme 2022<sup><a href='https://jalatvia.lv/bnews/global/973#:~:text=TrioDigitalo%20%C2%A0%E2%80%93%C2%A0%20M%C4%81r%C4%ABte%20Balgalve%2C%20R%C4%ABgas%20Stradi%C5%86a%20universit%C4%81te%2C%20Antra%20%C5%A0nikvalde%2C%20Banku%20augstskola%2C%20Aleksejs%20Kare%C4%BCins%2C%20R%C4%ABgas%20Tehnisk%C4%81%20universit%C4%81te.'>Link</a></sup> in Latvia;</h2></li>
+                    <li><h2>Qualified as one of the team finalists for HeatlhTech pre-acceleration programme 2022<sup><a target='_blank' rel='noreferrer' href='https://jalatvia.lv/bnews/global/973#:~:text=TrioDigitalo%20%C2%A0%E2%80%93%C2%A0%20M%C4%81r%C4%ABte%20Balgalve%2C%20R%C4%ABgas%20Stradi%C5%86a%20universit%C4%81te%2C%20Antra%20%C5%A0nikvalde%2C%20Banku%20augstskola%2C%20Aleksejs%20Kare%C4%BCins%2C%20R%C4%ABgas%20Tehnisk%C4%81%20universit%C4%81te.'>Link</a></sup> in Latvia;</h2></li>
                     <li><h2>Participated in multiple hackathons that were organized by “The Racoons” and Latvian universities;</h2></li>
                     <li><h2>Managed 2 projects in 2020 that received Baltic Regional Fund’s funding and guidance.</h2></li>
                 </ul>
