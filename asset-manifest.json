@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wolferado_portfolio/static/css/main.068a2e76.css",
-    "main.js": "/wolferado_portfolio/static/js/main.90234dd7.js",
+    "main.css": "/wolferado_portfolio/static/css/main.18f3e3aa.css",
+    "main.js": "/wolferado_portfolio/static/js/main.ded2a44f.js",
     "static/media/Unity_Game_Showcase_Perspective.png": "/wolferado_portfolio/static/media/Unity_Game_Showcase_Perspective.8405c3ed86c368118b09.png",
     "static/media/Adobe_Showcase.png": "/wolferado_portfolio/static/media/Adobe_Showcase.602779e74d8d26edcb94.png",
     "static/media/Blender_Showcase_Perspective.png": "/wolferado_portfolio/static/media/Blender_Showcase_Perspective.34025634434a39d52718.png",
@@ -15,11 +15,11 @@
     "static/media/LinkedIn.png": "/wolferado_portfolio/static/media/LinkedIn.9e211dcd4bd8b88e6414.png",
     "static/media/Wolferado.png": "/wolferado_portfolio/static/media/Wolferado.416fc419b504d49cc0c7.png",
     "index.html": "/wolferado_portfolio/index.html",
-    "main.068a2e76.css.map": "/wolferado_portfolio/static/css/main.068a2e76.css.map",
-    "main.90234dd7.js.map": "/wolferado_portfolio/static/js/main.90234dd7.js.map"
+    "main.18f3e3aa.css.map": "/wolferado_portfolio/static/css/main.18f3e3aa.css.map",
+    "main.ded2a44f.js.map": "/wolferado_portfolio/static/js/main.ded2a44f.js.map"
   },
   "entrypoints": [
-    "static/css/main.068a2e76.css",
-    "static/js/main.90234dd7.js"
+    "static/css/main.18f3e3aa.css",
+    "static/js/main.ded2a44f.js"
   ]
 }
