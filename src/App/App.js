@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
+import { BrowserRouter as HashRouter, Route, Routes, NavLink } from 'react-router-dom';
 import { useCollapse }  from 'react-collapsed'
 import Home from '../components/Home/Home';
 import Biography from '../components/Biography/Biography';
@@ -15,7 +15,7 @@ const App = () => {
     });
 
     return (
-        <Router>
+        <HashRouter>
             <nav>
                 <div id='name-container'>
                     <h1>Wolferado</h1>
@@ -43,7 +43,7 @@ const App = () => {
                 <Route path='/projects' element={<Projects />} />
                 <Route path='*' element={<NotFound />} />
             </Routes>
-        </Router>
+        </HashRouter>
     );
 }
 

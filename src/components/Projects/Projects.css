@@ -1,7 +1,7 @@
 #projects {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 #projects * {
@@ -9,11 +9,11 @@
 }
 #projects > .boards {
   display: grid;
-  grid-template-rows: 65% 35%;
+  grid-template-rows: 62.5% auto;
   grid-template-columns: 100%;
   margin: 1rem;
   max-width: 30vw;
-  min-height: 40svh;
+  min-height: 45svh;
   border: 5px solid #34517a;
   border-radius: 15px;
 }
@@ -46,16 +46,17 @@
 }
 #projects > .boards > .board-text {
   width: 100%;
-  height: 100%;
+  height: auto;
   grid-row: 2;
   grid-column: 1;
   background-color: #22272E;
   border-radius: 0px 0px 10px 10px;
+  z-index: -1;
 }
 #projects > .boards > .board-text > h2 {
   font-size: 1.2rem;
   color: #E9F2FF;
-  margin: 0 0rem -0.5rem 1rem;
+  margin: 0.5rem 0rem -0.5rem 1rem;
 }
 #projects > .boards > .board-text > h3 {
   font-size: 1rem;
@@ -68,6 +69,8 @@
     grid-template-rows: 55% 45%;
     max-width: 80vw;
     min-width: 75vw;
+    min-height: 40svh;
+    justify-content: space-evenly;
   }
   #projects .boards > img {
     filter: blur(0px);

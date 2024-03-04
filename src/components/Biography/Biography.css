@@ -36,6 +36,7 @@
   transition: 0.5s;
 }
 #bio .section sup {
+  margin: 0.5rem;
   font-size: 14px;
   color: #7D7D7D;
 }
@@ -50,10 +51,13 @@
   color: #b6b6b6;
 }
 #bio .section li {
-  margin: 1vw;
+  margin: 1rem;
 }
 #bio .section ul > ul {
-  margin-top: -2rem;
+  margin-top: 2rem;
+}
+#bio .section ul > ul > li:last-child {
+  margin-bottom: 2rem;
 }
 #bio .section .title-expandable {
   margin-top: 3vw;

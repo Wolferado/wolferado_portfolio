@@ -46,6 +46,7 @@
         }
     
         sup {
+            margin: 0.5rem;
             font-size: 14px;
             color: variables.$secondary-font-color;
     
@@ -64,11 +65,15 @@
         }
     
         li {
-            margin: 1vw;
+            margin: 1rem;
         }
 
         ul > ul {
-            margin-top: -2rem;
+            margin-top: 2rem;
+
+            > li:last-child {
+                margin-bottom: 2rem;
+            }
         }
 
         .title-expandable {
