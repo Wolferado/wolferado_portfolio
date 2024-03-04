@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/wolferado_portfolio/static/css/main.18f3e3aa.css",
-    "main.js": "/wolferado_portfolio/static/js/main.d2833468.js",
-    "static/media/Unity_Game_Showcase_Perspective.png": "/wolferado_portfolio/static/media/Unity_Game_Showcase_Perspective.8405c3ed86c368118b09.png",
-    "static/media/Adobe_Showcase.png": "/wolferado_portfolio/static/media/Adobe_Showcase.602779e74d8d26edcb94.png",
-    "static/media/Blender_Showcase_Perspective.png": "/wolferado_portfolio/static/media/Blender_Showcase_Perspective.34025634434a39d52718.png",
-    "static/media/Aleksey Karelin 2 (cropped).jpg": "/wolferado_portfolio/static/media/Aleksey Karelin 2 (cropped).81129dc45f0b470e62a6.jpg",
-    "static/media/Back-End_Showcase_Perspective.png": "/wolferado_portfolio/static/media/Back-End_Showcase_Perspective.9eebff156bd7a14f0b39.png",
-    "static/media/IAA_Kursa_darbs.png": "/wolferado_portfolio/static/media/IAA_Kursa_darbs.21022cf80584b94ecd65.png",
-    "static/media/VS_Code_FrontEnd_Perspective.png": "/wolferado_portfolio/static/media/VS_Code_FrontEnd_Perspective.9329cb6dafe7d5b13fee.png",
-    "static/media/Unity_Showcase.png": "/wolferado_portfolio/static/media/Unity_Showcase.2e3caa5682e6b2a7b439.png",
-    "static/media/Physics-calculator.jpg": "/wolferado_portfolio/static/media/Physics-calculator.57ca51c3de4ed970788a.jpg",
-    "static/media/Junior_Web_Developer_Assignment.png": "/wolferado_portfolio/static/media/Junior_Web_Developer_Assignment.9a01664c0e02f608ecf1.png",
-    "static/media/LinkedIn.png": "/wolferado_portfolio/static/media/LinkedIn.9e211dcd4bd8b88e6414.png",
-    "static/media/Wolferado.png": "/wolferado_portfolio/static/media/Wolferado.416fc419b504d49cc0c7.png",
-    "index.html": "/wolferado_portfolio/index.html",
-    "main.18f3e3aa.css.map": "/wolferado_portfolio/static/css/main.18f3e3aa.css.map",
-    "main.d2833468.js.map": "/wolferado_portfolio/static/js/main.d2833468.js.map"
+    "main.css": "/wolferado-portfolio/static/css/main.18f3e3aa.css",
+    "main.js": "/wolferado-portfolio/static/js/main.3e4fc8ec.js",
+    "static/media/Unity_Game_Showcase_Perspective.png": "/wolferado-portfolio/static/media/Unity_Game_Showcase_Perspective.8405c3ed86c368118b09.png",
+    "static/media/Adobe_Showcase.png": "/wolferado-portfolio/static/media/Adobe_Showcase.602779e74d8d26edcb94.png",
+    "static/media/Blender_Showcase_Perspective.png": "/wolferado-portfolio/static/media/Blender_Showcase_Perspective.34025634434a39d52718.png",
+    "static/media/Aleksey Karelin 2 (cropped).jpg": "/wolferado-portfolio/static/media/Aleksey Karelin 2 (cropped).81129dc45f0b470e62a6.jpg",
+    "static/media/Back-End_Showcase_Perspective.png": "/wolferado-portfolio/static/media/Back-End_Showcase_Perspective.9eebff156bd7a14f0b39.png",
+    "static/media/IAA_Kursa_darbs.png": "/wolferado-portfolio/static/media/IAA_Kursa_darbs.21022cf80584b94ecd65.png",
+    "static/media/VS_Code_FrontEnd_Perspective.png": "/wolferado-portfolio/static/media/VS_Code_FrontEnd_Perspective.9329cb6dafe7d5b13fee.png",
+    "static/media/Unity_Showcase.png": "/wolferado-portfolio/static/media/Unity_Showcase.2e3caa5682e6b2a7b439.png",
+    "static/media/Physics-calculator.jpg": "/wolferado-portfolio/static/media/Physics-calculator.57ca51c3de4ed970788a.jpg",
+    "static/media/Junior_Web_Developer_Assignment.png": "/wolferado-portfolio/static/media/Junior_Web_Developer_Assignment.9a01664c0e02f608ecf1.png",
+    "static/media/LinkedIn.png": "/wolferado-portfolio/static/media/LinkedIn.9e211dcd4bd8b88e6414.png",
+    "static/media/Wolferado.png": "/wolferado-portfolio/static/media/Wolferado.416fc419b504d49cc0c7.png",
+    "index.html": "/wolferado-portfolio/index.html",
+    "main.18f3e3aa.css.map": "/wolferado-portfolio/static/css/main.18f3e3aa.css.map",
+    "main.3e4fc8ec.js.map": "/wolferado-portfolio/static/js/main.3e4fc8ec.js.map"
   },
   "entrypoints": [
     "static/css/main.18f3e3aa.css",
-    "static/js/main.d2833468.js"
+    "static/js/main.3e4fc8ec.js"
   ]
 }
